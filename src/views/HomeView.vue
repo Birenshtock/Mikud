@@ -22,19 +22,26 @@
 
     <main class="learning-types main-layout">
       <div>
-        <h1>צורות הלמידה אצלינו</h1>
+        <div class="learning-titles">
+          <h1>צורות הלמידה אצלינו</h1>
+          <h6 class="sub-title">כל המורים עוברים הסמכה אצלינו במרכז</h6>
+
+          <div><i class="fa-sharp fa-solid fa-graduation-cap"></i></div>
+        </div>
 
         <div class="learning-items">
           <div class="learning-item">
-            <img src="../../src/styles/imgs/1on1.png" alt="" />
+            <img src="../../src/styles/imgs/private-lesson.png" alt="" />
             <h3>שיעורים פרטיים</h3>
+            <h6>מספר תלמידים: 1</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
+            <button>למד עוד</button>
           </div>
           <div class="learning-item">
-            <img src="../../src/styles/imgs/group.png" alt="" />
+            <img src="../../src/styles/imgs/wwww.png" alt="" />
             <h3>קבוצות למידה</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
@@ -42,7 +49,7 @@
             </p>
           </div>
           <div class="learning-item">
-            <img src="../../src/styles/imgs/zoom.png" alt="" />
+            <img src="../../src/styles/imgs/zoom-call.png" alt="" />
             <h3>למידה מרחוק</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
