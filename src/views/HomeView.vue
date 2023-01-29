@@ -63,6 +63,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
+            <button class="learning-btn">למד עוד</button>
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/zoom-call.png" alt="" />
@@ -76,6 +77,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
+            <button class="learning-btn">למד עוד</button>
           </div>
         </div>
       </div>
