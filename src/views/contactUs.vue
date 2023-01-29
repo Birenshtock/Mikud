@@ -6,7 +6,7 @@
     </div>
 
     <div class="contact-form-container">
-      <div class="conatact-info">
+      <div class="contact-info">
         <h3 class="no-margin-top">?איפה אנחנו נמצאים</h3>
 
         <div class="mapouter">

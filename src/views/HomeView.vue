@@ -50,6 +50,7 @@
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
             <button class="learning-btn">למד עוד</button>
+            <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/wwww.png" alt="" />
@@ -64,6 +65,10 @@
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
             <button class="learning-btn">למד עוד</button>
+<<<<<<< HEAD
+=======
+            <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
+>>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/zoom-call.png" alt="" />
@@ -78,6 +83,7 @@
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
             <button class="learning-btn">למד עוד</button>
+            <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
           </div>
         </div>
       </div>
@@ -122,6 +128,12 @@ export default {
       return `../../src/styles/imgs/review${this.i}.jpeg`
     },
   },
+<<<<<<< HEAD
+=======
+  methods: {
+  },
+  computed: {},
+>>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
 }
 </script>
 
