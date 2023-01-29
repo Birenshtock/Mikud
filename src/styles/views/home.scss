@@ -22,27 +22,26 @@
     top: 20%;
     left: 70%;
     transform: translate(-50%, -50%);
-    color: rgb(235, 232, 228);
+    color: white;
     font-size: 2rem;
-
+    
     button {
-      color: rgb(235, 232, 228);
       font-size: 1.5rem;
-      background-color: rgb(10, 168, 121);
+      color: white;
+      background-color: $clr1;
       padding: 20px 40px;
-      border-color: rgb(164, 163, 163);
+      border-color: $clr2;
       border-radius: 20px;
     }
   }
 
   .red {
-    background-color: rgb(230, 195, 236);
+    background-color: $clr2;
     margin-top: 100px;
     .title-background {
       position: absolute;
       right: 0;
-      background-color: rgb(248, 250, 215);
-      background-color: orange;
+      background-color: $clr1;
 
       transform: translate(0, -10px);
       height: 50px;
@@ -61,7 +60,7 @@
         text-align: end;
         align-items: center;
         height: auto;
-        color: rgb(255, 255, 255);
+        color: white;
 
         width: 100%;
       }
@@ -97,7 +96,7 @@
       margin: 20px 0px 20px 0;
 
       .sub-title {
-        color: rgb(107, 111, 111);
+        color: $clr1;
       }
     }
 
@@ -111,12 +110,12 @@
         width: 32%;
         // box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         // box-shadow: 0px 1px 1px #de1dde;
-        border-bottom: 5px solid orange;
+        border-bottom: 5px solid $clr1;
         margin: 0px;
         padding: 10px;
         // border-radius: 5px;
         text-align: end;
-        background-color: rgb(239, 239, 239);
+        background-color: rgb(229, 228, 228);
 
         img {
           width: 100%;
