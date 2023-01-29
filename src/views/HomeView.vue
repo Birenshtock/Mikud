@@ -82,16 +82,46 @@
         </div>
       </div>
     </main>
+
+    <div class="main-layout flex review-container">
+      <button class="left-btn btn" @click="moveReview(-1)">left</button>
+      <div class="flex">
+        <!-- <img src="../../src/styles/imgs/review0.jpeg" alt="" /> -->
+        <img :src="reviewImg" alt="no" />
+        <div>{{ reviews[i] }}</div>
+      </div>
+      <button class="right-btn btn" @click="moveReview(+1)">right</button>
+    </div>
   </div>
 </template>
 <script>
 export default {
   components: {},
   data: () => {
-    return {}
+    return {
+      i: 0,
+
+      reviews: ['אמא של תלמיד כיתה ד עולה חדש ממקסיקו', 22222222222, 33],
+    }
   },
-  methods: {},
-  computed: {},
+  methods: {
+    moveReview(dif) {
+      var currNum = this.i + dif
+      console.log('currNum', currNum)
+      if (currNum === 3) {
+        this.i = 0
+      } else if (currNum === -1) {
+        this.i = 2
+      } else {
+        this.i = currNum
+      }
+    },
+  },
+  computed: {
+    reviewImg() {
+      return `../../src/styles/imgs/review${this.i}.jpeg`
+    },
+  },
 }
 </script>
 
