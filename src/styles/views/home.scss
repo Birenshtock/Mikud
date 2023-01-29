@@ -86,13 +86,15 @@
 
   .learning-types {
     text-align: center;
+    margin-top: 70px;
+    h1,
+    h6,
+    h3 {
+      padding: 0;
+      margin: 5px;
+    }
     .learning-titles {
       margin: 20px 0px 20px 0;
-      h1,
-      h6 {
-        padding: 0;
-        margin: 5px;
-      }
 
       .sub-title {
         color: rgb(107, 111, 111);
@@ -127,6 +129,16 @@
       }
       .learning-item * > {
         width: 90%;
+      }
+      .learning-btn {
+        border-radius: 50px;
+        border: none;
+        background-color: orange;
+        width: 80px;
+        height: 30px;
+        position: relative;
+        right: 50%;
+        transform: translate(50%, 0);
       }
     }
   }

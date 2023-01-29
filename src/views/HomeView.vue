@@ -1,7 +1,14 @@
 <template>
   <div class="home-page">
     <img class="home-image-img" src="../../src/styles/imgs/222.png" alt="" />
-    <div class="img-text"><h1>header text</h1><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? Laudantium dolorum, ad id ut quibusdam praesentium repellat, aperiam eum nemo neque ex ab consectetur!</h5><button>Let`s Start !</button></div>
+    <div class="img-text">
+      <h1>header text</h1>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? Laudantium
+        dolorum, ad id ut quibusdam praesentium repellat, aperiam eum nemo neque ex ab consectetur!
+      </h5>
+      <button>Let`s Start !</button>
+    </div>
 
     <div class="red">
       <div class="title-background"></div>
@@ -34,16 +41,24 @@
           <div class="learning-item">
             <img src="../../src/styles/imgs/private-lesson.png" alt="" />
             <h3>שיעורים פרטיים</h3>
-            <h6>מספר תלמידים: 1</h6>
+            <div class="flex space-between">
+              <h6>מספר תלמידים: 1</h6>
+              <h6>ע"י: עדי</h6>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
-            <button>למד עוד</button>
+            <button class="learning-btn">למד עוד</button>
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/wwww.png" alt="" />
             <h3>קבוצות למידה</h3>
+
+            <div class="flex space-between">
+              <h6>מספר תלמידים: עד 5</h6>
+              <h6>ע"י: עדי</h6>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
@@ -52,6 +67,11 @@
           <div class="learning-item">
             <img src="../../src/styles/imgs/zoom-call.png" alt="" />
             <h3>למידה מרחוק</h3>
+
+            <div class="flex space-between">
+              <h6>מספר תלמידים: 1</h6>
+              <h6>ע"י: עדי</h6>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
