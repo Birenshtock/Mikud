@@ -86,6 +86,8 @@
       </div>
     </main>
 
+    <hr>
+
     <div class="main-layout flex review-container">
       <button class="left-btn btn" @click="moveReview(-1)"><i class="fa-solid fa-chevron-left"></i></button>
       <div class="flex img-txt-cont">
@@ -98,7 +100,9 @@
       </div>
       <button class="right-btn btn" @click="moveReview(+1)"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
+    
   </div>
+
 </template>
 <script>
 export default {
@@ -139,3 +143,5 @@ export default {
 </script>
 
 <style></style>
+
+

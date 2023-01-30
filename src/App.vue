@@ -5,9 +5,9 @@
     ></appHeader>
 
     <RouterView />
+    <appFooter></appFooter>
   </section>
 
-  <!-- <appFooter></appFooter> -->
 </template>
 
 <script>
