@@ -292,6 +292,38 @@
       top: 50%;
       transform: translate(0, -50%);
     }
+
+    .img-txt-cont {
+      justify-content: space-between;
+      text-align: end;
+      height: 100%;
+      width: 100%;
+    }
+    .review-img {
+      height: 100%;
+      width: auto;
+    }
+    .review-txt {
+      height: 100%;
+      width: 30%;
+
+      text-align: end;
+      padding-right: 2rem;
+
+      h6 {
+        margin: 0;
+        color: rgb(193, 193, 193);
+      }
+
+      .review-txt-sub {
+        font-size: 1rem;
+      }
+      .review-txt-title {
+        font-family: 'Noto Serif Hebrew', serif;
+        color: $clr1;
+        font-style: oblique;
+      }
+    }
   }
 
   // .img-txt-cont {
