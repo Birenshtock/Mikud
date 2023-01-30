@@ -98,6 +98,17 @@
       </div>
       <button class="right-btn btn" @click="moveReview(+1)"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
+
+    <div class="main-layout offer-container">
+      <h1>מה אנחנו מציעים?</h1>
+      <div class="offer-list">
+        <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
+          <img :src="offer.icon" alt="" />
+          <h4>{{ offer.title }}</h4>
+          <h6>{{ offer.description }}</h6>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -114,6 +125,30 @@ export default {
         { reviewDscription: 'שיעור 1 בשבוע לאורך הסמסטר |   זום', reviewInfo: 'עדי, סטודנטית להנדסת חשמל בבר אילן אחרי מבחן בחדו"א 1' },
 
         ,
+      ],
+      offers: [
+        {
+          icon: '../../src/styles/imgs/icon0.png',
+          title: '>ביהס לעברית',
+          description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
+        },
+        {
+          icon: '../../src/styles/imgs/icon0.png',
+          title: 'סטודנטים',
+          description: 'אנחנו כאן להציע מרתונים לפני המבחנים, ושיעורים פרטיים במהלך הסמסטר',
+        },
+        {
+          icon: '../../src/styles/imgs/icon0.png',
+          title: 'ביה"ס לאנגלית',
+          description: 'ביה"ס לאנגלית מציע מגוון  שיעורי אנגלית לשיפור הדיבור  והכתיבה',
+        },
+        {
+          icon: '../../src/styles/imgs/icon0.png',
+          title: 'שיעורים פרטיים',
+          description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
+        },
+        { icon: '../../src/styles/imgs/icon0.png', title: 'מרכז בגבעת שמואל', description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה' },
+        { icon: '../../src/styles/imgs/icon0.png', title: 'היי למה לא', description: 'אני כאן כל הזמן' },
       ],
     }
   },

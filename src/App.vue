@@ -51,10 +51,6 @@ export default {
 .f {
   height: auto;
 }
-.header-white {
-  background-color: rgb(255, 255, 255);
-  color: rgb(109, 105, 105);
-}
 .header-transparent {
   background-color: rgba(246, 8, 8, 0);
   position: sticky;
@@ -62,11 +58,17 @@ export default {
   z-index: 99;
   color: rgb(255, 255, 255);
 }
+
+.header-white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(109, 105, 105);
+}
+
 .bg-white {
   background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   z-index: 99;
-  color: rgb(109, 105, 108);
+  color: pink;
 }
 </style>
