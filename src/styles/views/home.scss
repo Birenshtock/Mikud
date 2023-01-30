@@ -5,7 +5,7 @@
   z-index: 1;
 
   .home-image-img {
-    border-end-end-radius: 70rem 70rem;
+    border-end-end-radius: 60rem 70rem;
     box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
@@ -24,15 +24,34 @@
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
-    // font-size: 100%;
+    // font-size:xx-large;
 
     button {
       font-size: 1.5rem;
+      // font-size:x-large;
       color: white;
       background-color: $clr1;
       padding: 20px 40px;
       border-color: $clr2;
       border-radius: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1120px) {
+    .home-image-img {
+      border-end-end-radius: 50rem 70rem;
+    }
+    .img-text {
+      top: 12%;
+      font-size: x-large;
+      button {
+        padding: 13px 25px;
+      }
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .home-image-img {
+      border-end-end-radius: 30rem 80rem;
     }
   }
 
@@ -81,6 +100,24 @@
         position: relative;
         bottom: 0px;
       }
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .home-image-img {
+      display: none;
+    }
+    .img-text {
+      background-color: $clr2;
+      position: relative;
+      left: 50%;
+      margin-top: 16rem;
+      button {
+        margin-bottom: 1.5rem;
+      }
+    }
+    .red {
+      margin: 0;
     }
   }
 
@@ -141,6 +178,54 @@
         background-color: $clr1;
         border-color: $clr2;
         border-radius: 20px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 1.5rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .learning-types {
+      .learning-items {
+        display: block;
+        .learning-item {
+          margin-bottom: 3rem;
+          width: 100%;
+          padding: 2rem;
+          h3 {
+            margin-top: 2rem;
+          }
+        }
+        .learning-btn {
+          margin-right: 3rem;
+          // width: 90px;
+          // height: 40px;
+        }
       }
     }
   }
@@ -209,32 +294,8 @@
     }
   }
 
-  .img-txt-cont {
-    height: 100%;
-    width: 100%;
-    justify-content: space-between;
-    .review-img {
-      height: 100%;
-      width: auto;
-    }
-
-    .review-txt {
-      text-align: end;
-      width: auto;
-      padding-right: 2rem;
-      h6 {
-        margin: 0;
-      }
-      .review-txt-sub {
-        font-size: 1rem;
-        color: #7e7b7b;
-      }
-      .review-txt-title {
-        font-family: 'Noto Serif Hebrew', serif;
-
-        color: $clr1;
-        font-style: oblique;
-      }
-    }
-  }
+  // .img-txt-cont {
+  //   // align-items: center;
+  //   // height: 100%;
+  // }
 }
