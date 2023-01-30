@@ -4,8 +4,8 @@
     <div class="img-text">
       <h1>header text</h1>
       <h5>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate?
-        dolorum, aperiam eum nemo neque ex ab consectetur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? dolorum, aperiam
+        eum nemo neque ex ab consectetur!
       </h5>
       <button>Let`s Start !</button>
     </div>
@@ -87,12 +87,16 @@
     </main>
 
     <div class="main-layout flex review-container">
-      <button class="left-btn btn" @click="moveReview(-1)">left</button>
+      <button class="left-btn btn" @click="moveReview(-1)"><i class="fa-solid fa-chevron-left"></i></button>
       <div class="flex img-txt-cont">
-        <img :src="reviewImg" alt="no" />
-        <div>{{ reviews[i] }}</div>
+        <img class="review-img" :src="reviewImg" alt="no" />
+        <div class="review-txt">
+          <h6 class="review-txt-sub">{{ reviews[i].reviewDscription }}</h6>
+          <h1 class="review-txt-title">{{ reviews[i].reviewInfo }}</h1>
+          <!-- {{ reviews[i] }} -->
+        </div>
       </div>
-      <button class="right-btn btn" @click="moveReview(+1)">right</button>
+      <button class="right-btn btn" @click="moveReview(+1)"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
   </div>
 </template>
@@ -104,9 +108,12 @@ export default {
       i: 0,
 
       reviews: [
-        'אמא של תלמיד כיתה ד עולה חדש ממקסיקו',
-        'שני תלמידת גיתה י"א, 4 יחידות מתמטיקה',
-        'עדי, סטודנטית להנדסת חשמל בבר אילן אחרי מבחן בחדו"א 1',
+        { reviewDscription: '4 שעות עברית בשבוע | במרכז למידה ברעננה', reviewInfo: 'אמא של תלמיד כיתה ד עולה חדש ממקסיקו' },
+        { reviewDscription: 'שיעור אחד בשבוע | בבית בתלמידה', reviewInfo: 'שני תלמידת גיתה י"א, 4 יחידות מתמטיקה' },
+
+        { reviewDscription: 'שיעור 1 בשבוע לאורך הסמסטר \ בזום', reviewInfo: 'עדי, סטודנטית להנדסת חשמל בבר אילן אחרי מבחן בחדו"א 1' },
+
+        ,
       ],
     }
   },
