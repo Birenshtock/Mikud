@@ -1,11 +1,11 @@
 <template>
   <div class="home-page">
-    <img class="home-image-img" src="../../src/styles/imgs/222.png" alt="" />
+    <img class="home-image-img" src="../../src/styles/imgs/225.png" alt="" />
     <div class="img-text">
       <h1>header text</h1>
       <h5>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? Laudantium
-        dolorum, ad id ut quibusdam praesentium repellat, aperiam eum nemo neque ex ab consectetur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate?
+        dolorum, aperiam eum nemo neque ex ab consectetur!
       </h5>
       <button>Let`s Start !</button>
     </div>
@@ -65,10 +65,7 @@
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
             <button class="learning-btn">למד עוד</button>
-<<<<<<< HEAD
-=======
             <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
->>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/zoom-call.png" alt="" />
@@ -128,12 +125,6 @@ export default {
       return `../../src/styles/imgs/review${this.i}.jpeg`
     },
   },
-<<<<<<< HEAD
-=======
-  methods: {
-  },
-  computed: {},
->>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
 }
 </script>
 
