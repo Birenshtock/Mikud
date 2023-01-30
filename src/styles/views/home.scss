@@ -184,6 +184,59 @@
     }
   }
 
+  @media only screen and (max-width: 950px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 1.5rem;
+          
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 1rem;
+          
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .learning-types {
+      .learning-items {
+        .learning-btn {
+          margin-right: 0.5rem;
+          
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .learning-types {
+      .learning-items {
+        display: block;
+        .learning-item {
+          margin-bottom: 3rem;
+          width: 100%;
+          padding: 2rem;
+          h3{
+            margin-top: 2rem;
+          }
+        }
+        .learning-btn {
+          margin-right: 3rem;
+          // width: 90px;
+          // height: 40px;
+          
+        }
+      }
+    }
+  }
+
+
   .review-container {
     width: 100%;
     position: relative;
