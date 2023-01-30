@@ -1,6 +1,6 @@
 <template>
   <div class="home-page">
-    <img class="home-image-img" src="../../src/styles/imgs/225.png" alt="" />
+    <img class="home-image-img" src="../../src/styles/imgs/home-img.png" alt="" />
     <div class="img-text">
       <h1>header text</h1>
       <h5>
