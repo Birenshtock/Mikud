@@ -65,10 +65,7 @@
               alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
             </p>
             <button class="learning-btn">למד עוד</button>
-<<<<<<< HEAD
-=======
             <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
->>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
           </div>
           <div class="learning-item">
             <img src="../../src/styles/imgs/zoom-call.png" alt="" />
@@ -91,8 +88,7 @@
 
     <div class="main-layout flex review-container">
       <button class="left-btn btn" @click="moveReview(-1)">left</button>
-      <div class="flex">
-        <!-- <img src="../../src/styles/imgs/review0.jpeg" alt="" /> -->
+      <div class="flex img-txt-cont">
         <img :src="reviewImg" alt="no" />
         <div>{{ reviews[i] }}</div>
       </div>
@@ -107,7 +103,11 @@ export default {
     return {
       i: 0,
 
-      reviews: ['אמא של תלמיד כיתה ד עולה חדש ממקסיקו', 22222222222, 33],
+      reviews: [
+        'אמא של תלמיד כיתה ד עולה חדש ממקסיקו',
+        'שני תלמידת גיתה י"א, 4 יחידות מתמטיקה',
+        'עדי, סטודנטית להנדסת חשמל בבר אילן אחרי מבחן בחדו"א 1',
+      ],
     }
   },
   methods: {
@@ -128,12 +128,6 @@ export default {
       return `../../src/styles/imgs/review${this.i}.jpeg`
     },
   },
-<<<<<<< HEAD
-=======
-  methods: {
-  },
-  computed: {},
->>>>>>> 903d5542bd4edd2d9df564799aa0aba5a1961076
 }
 </script>
 
