@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">© 2021 Copyright: mikudStudyCenter</div>
+  <footer>© 2021 Copyright: mikudStudyCenter</footer>
 </template>
 <script>
 export default {
