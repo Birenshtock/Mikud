@@ -1,11 +1,11 @@
 <template>
   <div class="home-page">
-    <img class="home-image-img" src="../../src/styles/imgs/222.png" alt="" />
+    <img class="home-image-img" src="../../src/styles/imgs/225.png" alt="" />
     <div class="img-text">
       <h1>header text</h1>
       <h5>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? Laudantium
-        dolorum, ad id ut quibusdam praesentium repellat, aperiam eum nemo neque ex ab consectetur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate?
+        dolorum, aperiam eum nemo neque ex ab consectetur!
       </h5>
       <button>Let`s Start !</button>
     </div>
