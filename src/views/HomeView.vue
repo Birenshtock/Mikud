@@ -8,7 +8,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? dolorum, aperiam
         eum nemo neque ex ab consectetur!
       </h5>
-      <button>Let`s Start !</button>
+      <button class="btn">Let`s Start !</button>
     </div>
 
     <div class="main-layout offer-container">
@@ -23,7 +23,27 @@
       </div>
     </div>
 
-    <div class="red">
+    <div class="about-us">
+      <div class="main-layout">
+        <h1>מי אנחנו?</h1>
+        <h6 class="about-sub-title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero veritatis quas ex ut commodi explicabo at ipsam dicta.
+        </h6>
+
+        <div class="flex about-info-cont">
+          <div class="about-info">
+            <p>
+              {{ lorem }}
+              {{ lorem }}
+            </p>
+            <button class="btn about-btn">learn more</button>
+          </div>
+          <img class="about-img" src="../../src/styles/imgs/cover.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="red">
       <div class="title-background"></div>
 
       <div class="bi">
@@ -39,7 +59,7 @@
           provident sed reprehenderit consectetur necessitatibus culpa explicabo pariatur! Placeat rem facere sunt.
         </p>
       </div>
-    </div>
+    </div> -->
 
     <main class="learning-types main-layout">
       <div>
@@ -59,8 +79,7 @@
               <h6>ע"י: עדי</h6>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
-              alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
+              {{ lorem }}
             </p>
             <button class="learning-btn">למד עוד</button>
             <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
@@ -74,8 +93,7 @@
               <h6>ע"י: עדי</h6>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
-              alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
+              {{ lorem }}
             </p>
             <button class="learning-btn">למד עוד</button>
             <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
@@ -89,8 +107,7 @@
               <h6>ע"י: עדי</h6>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eveniet quo odio aperiam eligendi, vel soluta, voluptatibus
-              alias voluptate tenetur enim deserunt facilis a nobis id rerum ipsa corporis odit.
+              {{ lorem }}
             </p>
             <button class="learning-btn">למד עוד</button>
             <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink>
@@ -98,8 +115,6 @@
         </div>
       </div>
     </main>
-
-    <hr />
 
     <div class="main-layout flex review-container">
       <button class="left-btn btn" @click="moveReview(-1)"><i class="fa-solid fa-chevron-left"></i></button>
@@ -154,6 +169,8 @@ export default {
         { icon: '../../src/styles/imgs/icon0.png', title: 'מרכז בגבעת שמואל', description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה' },
         { icon: '../../src/styles/imgs/icon0.png', title: 'היי למה לא', description: 'אני כאן כל הזמן' },
       ],
+      lorem:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur, quam ut optio quisquam dolorem maiores perspic totam cupiditate asperiores provident praesentium nesciunt aperiam ipsam reiciendis aliquid adipisci sit beatae',
     }
   },
   methods: {
