@@ -1,6 +1,7 @@
 <template>
   <div class="home-page">
-    <img class="home-image-img" src="../../src/styles/imgs/home-img.png" alt="" />
+    <img class="home-image-img" src="../../src/styles/imgs/websiteBackground.png" alt="" />
+    <!-- <div class="ji"></div> -->
     <div class="img-text">
       <h1>header text</h1>
       <h5>
@@ -8,6 +9,18 @@
         eum nemo neque ex ab consectetur!
       </h5>
       <button>Let`s Start !</button>
+    </div>
+
+    <div class="main-layout offer-container">
+      <h1>מה אנחנו מציעים?</h1>
+      <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4>
+      <div class="offer-list">
+        <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
+          <img :src="offer.icon" alt="" />
+          <h4>{{ offer.title }}</h4>
+          <h6 class="offer-description">{{ offer.description }}</h6>
+        </div>
+      </div>
     </div>
 
     <div class="red">
@@ -100,17 +113,6 @@
       </div>
       <button class="right-btn btn" @click="moveReview(+1)"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
-
-    <div class="main-layout offer-container">
-      <h1>מה אנחנו מציעים?</h1>
-      <div class="offer-list">
-        <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
-          <img :src="offer.icon" alt="" />
-          <h4>{{ offer.title }}</h4>
-          <h6>{{ offer.description }}</h6>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script>
@@ -131,7 +133,7 @@ export default {
       offers: [
         {
           icon: '../../src/styles/imgs/icon0.png',
-          title: '>ביהס לעברית',
+          title: 'ביהס לעברית',
           description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
         },
         {

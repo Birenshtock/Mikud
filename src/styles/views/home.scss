@@ -4,10 +4,14 @@
   top: 0;
   z-index: 1;
 
+  
+
   .home-image-img {
-    border-end-end-radius: 60rem 70rem;
-    box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
+    border-bottom-left-radius: 60rem 70rem;
+    // border-end-end-radius: 60rem 70rem;
+    // box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
+    // -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
+    -webkit-box-shadow: 1px -8px 0px 20px rgb(10 168 121 / 75%);
     -moz-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
     width: 99.9%;
 
@@ -24,6 +28,7 @@
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
+    // background-image: linear-gradient(to right, red, yellow);
 
     button {
       font-size: 1.5rem;
@@ -318,8 +323,15 @@
   // }
 
   .offer-container {
-    margin-bottom: 100px;
+    width: 100%;
+    // margin: 100px 0 100px 0;
+    margin-top: 100px;
     text-align: center;
+    h1,
+    h4,
+    h6 {
+      margin: 0;
+    }
     .offer-list {
       display: grid;
       width: 100%;
@@ -327,18 +339,16 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
 
-      h1,
-      h4,
-      h6 {
-        margin: 0;
-      }
-
       .offer {
         height: 120px;
         width: 100%;
-        // background-color: aquamarine;
-        // border: 1px solid black;
+        margin-top: 40px;
+
         padding: 0 40px 0 40px;
+        .offer-description {
+          color: $clr4;
+          padding: 0.4rem 00.4rem 0;
+        }
       }
     }
   }
