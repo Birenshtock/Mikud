@@ -4,6 +4,15 @@
       <div></div>
 
       <RouterLink class="header-item" to="/contactUs">
+        <div>עברית</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/contactUs">
+        <div>אנגלית</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/contactUs">
+        <div>סטודנטים</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/contactUs">
         <div>צור קשר</div>
       </RouterLink>
       <RouterLink class="header-item" to="/">

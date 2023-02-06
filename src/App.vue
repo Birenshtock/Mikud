@@ -7,7 +7,6 @@
     <RouterView />
     <appFooter></appFooter>
   </section>
-
 </template>
 
 <script>
