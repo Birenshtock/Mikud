@@ -207,8 +207,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <!-- <button class="learning-btn">למד עוד</button>
-              <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink> -->
+              <button class="learning-btn">למד עוד</button>
             </div>
           </div>
           <div class="learning-item">
@@ -224,8 +223,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <!-- <button class="learning-btn">למד עוד</button>
-              <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink> -->
+              <button class="learning-btn">למד עוד</button>
             </div>
           </div>
           <div class="learning-item">
@@ -240,8 +238,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <!-- <button class="learning-btn">למד עוד</button>
-              <RouterLink to="/contactUs"><button class="learning-btn">הרשם</button></RouterLink> -->
+              <button class="learning-btn">למד עוד</button>
             </div>
           </div>
         </div>

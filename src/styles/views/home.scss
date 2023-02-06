@@ -142,6 +142,10 @@
   .learning-types {
     text-align: center;
     margin-top: 70px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    padding: 5%;
+
     h1,
     h6,
     h3 {
@@ -150,6 +154,10 @@
     }
     .learning-titles {
       margin: 20px 0px 20px 0;
+      border-radius: 50px;
+      background-color: rgb(162, 140, 196);
+      width: 40%;
+      padding: 5%;
 
       .sub-title {
         color: $clr1;
