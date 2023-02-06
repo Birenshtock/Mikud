@@ -207,7 +207,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <button class="learning-btn">למד עוד</button>
+              <button class="btn learning-btn">למד עוד</button>
             </div>
           </div>
           <div class="learning-item">
@@ -223,7 +223,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <button class="learning-btn">למד עוד</button>
+              <button class="btn learning-btn">למד עוד</button>
             </div>
           </div>
           <div class="learning-item">
@@ -238,7 +238,7 @@
               <p>
                 {{ lorem }}
               </p>
-              <button class="learning-btn">למד עוד</button>
+              <button class="btn learning-btn">למד עוד</button>
             </div>
           </div>
         </div>
