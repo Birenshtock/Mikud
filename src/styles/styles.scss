@@ -1,7 +1,11 @@
-// helpers
+//setup
+@import 'setup/variables.scss';
+@import 'setup/typography.scss';
+
+
+// basics
 @import 'basics/helpers.scss';
 @import 'basics/base.scss';
-@import 'basics/variables.scss';
 
 // components
 @import 'cmps/header.scss';
