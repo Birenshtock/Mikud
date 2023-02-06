@@ -157,33 +157,20 @@
         <div class="flex about-info-cont">
           <div class="about-info">
             <p>
-              {{ lorem }}
-              {{ lorem }}
+              &quot;מיקוד&quot; מרכז למידה הוא מרכז המציע שיעורים פרטיים וקבוצות למידה לתלמידים כיתות א עד יב,
+              כמו כן גם לסטודנטים. במרכז זה יש מרכז ראשי בגבעת שמואל, שמוביל חוויות למידה מועילות
+              ומתאימות לצרכי כל תלמיד. כמו כן, מיקוד מרכז למידה מקיים שיתופי פעולה עם בתי ספר וחוויות
+              למידה מאופיינות להפעלה ולהשתתפות בלמידה המועילה ביותר. מורי המרכז מקצועיים ונדיבים,
+              ומאמינים באינטראקציה מול התלמידים כדי להביא אותם לדרך לימוד המוצלחת. המרכז מכוון לעזור
+              לתלמידים להשתפר בנושאים שמאופצים עליהם ולקבל ידע במיני ועמוק. אנו מאמינים בכל אחד
+              ואחת.
             </p>
-            <button class="btn about-btn">learn more</button>
+            <!-- <button class="btn about-btn">learn more</button> -->
           </div>
           <img class="about-img" src="../../src/styles/imgs/cover.png" alt="" />
         </div>
       </div>
     </div>
-
-    <!-- <div class="red">
-      <div class="title-background"></div>
-
-      <div class="bi">
-        <h1 class="hi main-layout">?מי אנחנו</h1>
-      </div>
-
-      <div class="about-container main-layout">
-        <img class="student-sticker" src="../../src/styles/imgs/סטיקר.png" alt="" />
-        <p class="about">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugiat sint exercitationem provident molestiae esse autem
-          necessitatibus, cum consequuntur earum repellat laudantium, velit, modi corrupti! Asperiores similique neque laborum id? Lorem
-          ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quod quas placeat in maxime explicabo. Ab ullam consequuntur,
-          provident sed reprehenderit consectetur necessitatibus culpa explicabo pariatur! Placeat rem facere sunt.
-        </p>
-      </div>
-    </div> -->
 
     <main class="learning-types main-layout">
       <div>
