@@ -18,16 +18,11 @@
       width: 40%;
       text-align: right;
       direction: rtl;
-      .title1 {
-        font-family: gezer;
-        font-weight: 900;
-        font-size: 0.5rem;
-        color: rgb(133, 58, 5);
-      }
+
       .title2 {
         font-weight: 900;
-        font-size: 1rem;
-        color: rgb(255, 146, 68);
+        font-size: 1.5rem;
+        color: $clr1;
         line-height: 5rem;
       }
       .title3 {
@@ -93,7 +88,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       h1 {
-        color: $clr4;
+        color: $clr8;
         font-size: 2rem;
         font-family: gezer;
       }
@@ -253,7 +248,7 @@
   .about-us {
     margin-top: 100px;
     text-align: center;
-    background-color:$clr1;
+    background-color: $clr1;
     // background-color: rgba(144, 192, 244, 0.943);
     // background-image: url('src/styles/imgs/tap.png');
     // background-size: 150px;
@@ -298,10 +293,15 @@
     width: 100%;
     margin-top: 100px;
     text-align: center;
-    h1,
-    h4,
-    h6 {
-      margin: 0;
+    // h1,
+    // h4,
+    // h6 {
+    //   margin: 0;
+    // }
+
+    h1 {
+      font-family: gezer;
+      color: rgb(69, 69, 69);
     }
     .offer-list {
       display: grid;
