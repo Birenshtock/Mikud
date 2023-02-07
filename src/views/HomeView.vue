@@ -149,7 +149,7 @@
 
     <div class="about-us">
       <div class="main-layout">
-        <h1>מי אנחנו?</h1>
+        <h1 class="about-title"> ? מי אנחנו</h1>
         <h6 class="about-sub-title">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero veritatis quas ex ut commodi explicabo at ipsam dicta.
         </h6>
@@ -165,7 +165,6 @@
               לתלמידים להשתפר בנושאים שמאופצים עליהם ולקבל ידע במיני ועמוק. אנו מאמינים בכל אחד
               ואחת.
             </p>
-            <!-- <button class="btn about-btn">learn more</button> -->
           </div>
           <img class="about-img" src="../../src/styles/imgs/cover.png" alt="" />
         </div>
