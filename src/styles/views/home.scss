@@ -237,10 +237,6 @@
     margin-top: 100px;
     text-align: center;
     background-color: $clr1;
-    // background-color: rgba(144, 192, 244, 0.943);
-    // background-image: url('src/styles/imgs/tap.png');
-    // background-size: 150px;
-    // background-repeat: repeat;
     padding: 50px 0 50px 0;
     color: white;
 
@@ -282,13 +278,8 @@
   .offer-container {
     width: 100%;
     direction: rtl;
-    // margin-top: 100px;
     text-align: center;
-    // h1,
-    // h4,
-    // h6 {
-    //   margin: 0;
-    // }
+   
 
     h1 {
       font-family: gezer;
@@ -314,7 +305,6 @@
         padding: 0 40px 0 40px;
         h4 {
           font-family: gezer;
-          // color: $clr8;
           color: $clr5;
           margin-bottom: 0;
         }
