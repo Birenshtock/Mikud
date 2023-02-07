@@ -5,38 +5,43 @@
   z-index: 1;
 
   .home-open {
+    margin-top: 5rem;
     justify-content: space-between;
     align-items: center;
 
     .home-svg {
-      width: 50%;
-      box-shadow: #ffffff;
-      border: 1px solid black;
+      width: 60%;
+      // box-shadow: #ffffff;
+      // border: 1px solid black;
+      // -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
     }
     .home-txt {
-      width: 50%;
+      font-family: gezer;
+      width: 40%;
       text-align: right;
       .title1 {
         // font-family: ktavyadBold;
+        font-family: gezer;
         font-weight: 900;
-        font-size: 1rem;
+        font-size: 0.5rem;
         color: rgb(133, 58, 5);
       }
       .title2 {
-        font-family: ktavyadBold;
+        // font-family: ktavyadBold;
         font-weight: 900;
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(255, 146, 68);
         line-height: 5rem;
 
         // transform: translate(-10%, 0);
       }
       .title3 {
-        font-family: ktavyadBold;
+        // font-family: ktavyadBold;
         font-weight: 900;
         font-size: 4rem;
         color: rgb(102, 2, 224);
-        line-height: 5rem;
+        line-height: 4rem;
         // transform: translate(-10%, 0);
       }
     }
@@ -337,13 +342,13 @@
     margin-top: 100px;
     text-align: center;
     background-color: rgba(144, 192, 244, 0.943);
-    background-image: url("src/styles/imgs/tap.png");
+    background-image: url('src/styles/imgs/tap.png');
     background-size: 150px;
-    background-repeat:repeat;
+    background-repeat: repeat;
     padding: 50px 0 50px 0;
     color: #fff;
-    
-    .about-title{
+
+    .about-title {
       font-family: ktavyadBold;
       font-size: xxx-large;
     }
@@ -369,7 +374,7 @@
         line-height: 1.8;
         word-spacing: 5px;
         margin: auto;
-        height:fit-content;
+        height: fit-content;
       }
     }
   }
