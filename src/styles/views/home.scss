@@ -245,13 +245,13 @@
   .about-us {
     margin-top: 100px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color:$clr1;
     // background-color: rgba(144, 192, 244, 0.943);
     // background-image: url('src/styles/imgs/tap.png');
     // background-size: 150px;
     // background-repeat: repeat;
     padding: 50px 0 50px 0;
-    color: $clr5;
+    color: white;
 
     .about-title {
       font-family: ktavyadBold;
@@ -275,12 +275,13 @@
         background-color: rgb(253, 253, 253);
         padding: 3em;
         border-radius: 50px;
-        color: black;
-        line-height: 1.8;
+        color: $clr5;
+        line-height: 2.5;
         word-spacing: 5px;
         margin: auto;
         height: fit-content;
-        border: 5px solid $clr1;
+        border: 10px solid $clr5;
+        font-size: larger;
       }
     }
   }
