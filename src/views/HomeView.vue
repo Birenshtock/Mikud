@@ -1,16 +1,5 @@
 <template>
   <div class="home-page">
-    <!-- <img class="home-image-img" src="../../src/styles/imgs/home-img.png" alt="" /> -->
-    <!-- <div class="ji"></div> -->
-    <!-- <div class="img-text main-layout">
-      <h1>'מרכז למידה 'מיקוד</h1>
-      <h5>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae facere doloremque nostrum debitis voluptate? dolorum, aperiam
-        eum nemo neque ex ab consectetur!
-      </h5>
-      <button class="btn">Let`s Start !</button>
-    </div> -->
-
     <div class="flex home-open main-layout">
       <svg class="home-svg" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 1080 1080" viewBox="0 0 1080 1080">
         <path fill="#f7f7f7" d="M1035 1065H53c-6.6 0-12-5.4-12-12v-47c0-6.6 5.4-12 12-12h982c6.6 0 12 5.4 12 12v47c0 6.6-5.4 12-12 12z" />
@@ -140,6 +129,7 @@
       <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4>
       <div class="offer-list">
         <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
+          <video width="100" height="100"><source :src="offer.icon" type="video/mp4">Your browser does not support the video tag.</video>
           <img :src="offer.icon" alt="" />
           <h4>{{ offer.title }}</h4>
           <h6 class="offer-description">{{ offer.description }}</h6>
@@ -262,7 +252,7 @@ export default {
       ],
       offers: [
         {
-          icon: '../../src/styles/imgs/icon0.png',
+          icon:'https://cdnl.iconscout.com/lottie/premium/preview-watermark/online-english-speaking-course-7231437-5899967.mp4', //'../../src/styles/imgs/icon0.png'
           title: 'ביהס לעברית',
           description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
         },
