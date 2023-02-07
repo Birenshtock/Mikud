@@ -552,8 +552,6 @@
         <div class="learning-titles">
           <h1>צורות הלמידה אצלינו</h1>
           <h6 class="sub-title">כל המורים עוברים הסמכה אצלינו במרכז</h6>
-
-          <div><i class="fa-sharp fa-solid fa-graduation-cap"></i></div>
         </div>
 
         <div class="learning-items">
