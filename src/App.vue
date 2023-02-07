@@ -1,7 +1,8 @@
 <template>
   <section class="f">
-    <appHeader></appHeader>
-    <!-- :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
+    <appHeader>
+      <!-- :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
+    </appHeader>
 
     <RouterView />
     <appFooter></appFooter>
@@ -46,7 +47,7 @@ export default {
 }
 </script>
 <style>
-/* .f {
+.f {
   height: auto;
 }
 .header-transparent {
@@ -68,5 +69,5 @@ export default {
   top: 0;
   z-index: 99;
   color: pink;
-} */
+}
 </style>
