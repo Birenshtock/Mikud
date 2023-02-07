@@ -58,7 +58,7 @@
 
   .learning-types {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 150px;
     border-radius: 40px;
 
@@ -74,24 +74,29 @@
     }
 
     .learning-titles {
-      border-radius: 20px;
-      background-color: rgb(249, 249, 249);
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      width: 40%;
+      // border-radius: 20px;
+      // background-color: rgb(249, 249, 249);
+      // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      // width: 40%;
       padding: 2%;
-      position: absolute;
+      // position: absolute;
       top: 0;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      margin-bottom: 50px;
+      direction: rtl;
+
       h1 {
         color: $clr5;
         font-size: 2rem;
-        font-family: gezer;
+        line-height: 2rem;
       }
 
       .sub-title {
-        color: $clr1;
-        font-size: 1rem;
+        font-family: gezer;
+        color: $clr5;
+        font-size: 2rem;
+        margin-top: 20px;
       }
     }
 
@@ -126,7 +131,7 @@
           h3 {
             font-family: gezer;
             font-weight: 900;
-            color: $clr6;
+            color: $clr5;
           }
         }
       }
