@@ -638,7 +638,8 @@ export default {
       ],
       offers: [
         {
-          icon: '../../src/styles/imgs/study-idea.gif',
+          icon: '../../src/styles/imgs/Reading-Book.gif',
+
           title: 'ביהס לעברית',
           description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
         },
@@ -648,17 +649,28 @@ export default {
           description: 'אנחנו כאן להציע מרתונים לפני המבחנים, ושיעורים פרטיים במהלך הסמסטר',
         },
         {
-          icon: '../../src/styles/imgs/Form-Filling.gif',
+          icon: '../../src/styles/imgs/Web-Browsing.gif',
+
           title: 'ביה"ס לאנגלית',
           description: 'ביה"ס לאנגלית מציע מגוון  שיעורי אנגלית לשיפור הדיבור  והכתיבה',
         },
         {
-          icon: '../../src/styles/imgs/Web-Browsing.gif',
+          icon: '../../src/styles/imgs/Form-Filling.gif',
+
           title: 'שיעורים פרטיים',
           description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
         },
-        { icon: '../../src/styles/imgs/icon0.png', title: 'מרכז בגבעת שמואל', description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה' },
-        { icon: '../../src/styles/imgs/icon0.png', title: 'תוכנית גפן', description: 'אני כאן כל הזמן' },
+        {
+          icon: '../../src/styles/imgs/Online-Study.gif',
+          title: 'מרכז בגבעת שמואל',
+          description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה',
+        },
+        {
+          icon: '../../src/styles/imgs/Telescope.gif',
+
+          title: 'תוכנית גפן',
+          description: 'אני כאן כל הזמן',
+        },
       ],
       lorem:
         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur, quam ut optio quisquam dolorem maiores perspic totam cupiditate asperiores provident praesentium nesciunt aperiam ipsam reiciendis aliquid adipisci sit beatae',
