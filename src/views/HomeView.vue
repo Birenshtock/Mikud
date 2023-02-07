@@ -1,80 +1,33 @@
 <template>
   <div class="home-page">
-    <div class="flex home-open main-layout">
-      <open />
-    </div>
+    <open />
 
-    <div class="main-layout offer-container">
-      <h1>מה אנחנו מציעים?</h1>
-      <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4>
-      <div class="offer-list">
-        <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
-          <img class="offer-gif" :src="offer.icon" alt="" />
-          <h4>{{ offer.title }}</h4>
-          <h6 class="offer-description">{{ offer.description }}</h6>
-        </div>
-      </div>
-    </div>
+    <offers />
 
-    <aboutUs></aboutUs>
-    <learningTypes></learningTypes>
+    <aboutUs />
 
-    <div class="main-layout flex review-container">
-      <reviews />
-    </div>
+    <learningTypes />
+
+    <reviews />
   </div>
 </template>
 <script>
-import aboutUs from '../components/about.vue'
-import learningTypes from '../components/learning-types.vue'
-import svgg from '../components/svg-aboutus.vue'
-import open from '../components/home-open.vue'
-import reviews from '../components/reviews.vue'
+import open from '../components/home/open.vue'
+import offers from '../components/home/offers.vue'
+import aboutUs from '../components/home/about.vue'
+import learningTypes from '../components/home/learning-types.vue'
+import reviews from '../components/home/reviews.vue'
+
 export default {
-  components: { svgg, open, reviews, aboutUs, learningTypes },
+  components: { open, offers, aboutUs, learningTypes, reviews},
   data: () => {
-    return {
-      offers: [
-        {
-          icon: '../../src/styles/imgs/Reading-Book.gif',
-
-          title: 'ביהס לעברית',
-          description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
-        },
-        {
-          icon: '../../src/styles/imgs/Creative-Thinking.gif',
-          title: 'סטודנטים',
-          description: 'אנחנו כאן להציע מרתונים לפני המבחנים, ושיעורים פרטיים במהלך הסמסטר',
-        },
-        {
-          icon: '../../src/styles/imgs/Web-Browsing.gif',
-
-          title: 'ביה"ס לאנגלית',
-          description: 'ביה"ס לאנגלית מציע מגוון  שיעורי אנגלית לשיפור הדיבור  והכתיבה',
-        },
-        {
-          icon: '../../src/styles/imgs/Form-Filling.gif',
-
-          title: 'שיעורים פרטיים',
-          description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
-        },
-        {
-          icon: '../../src/styles/imgs/Online-Study.gif',
-          title: 'מרכז בגבעת שמואל',
-          description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה',
-        },
-        {
-          icon: '../../src/styles/imgs/Telescope.gif',
-
-          title: 'תוכנית גפן',
-          description: 'אני כאן כל הזמן',
-        },
-      ],
-    }
+    return {}
   },
   methods: {},
   computed: {},
 }
 </script>
 
-<style></style>
+<style>
+
+</style>

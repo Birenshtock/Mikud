@@ -1,0 +1,44 @@
+.offer-container {
+    width: 100%;
+    direction: rtl;
+    text-align: center;
+   
+
+    h1 {
+      font-family: gezer;
+      color: rgb(69, 69, 69);
+      font-size: 2rem;
+      color: $clr5;
+    }
+    h4 {
+      color: $clr5;
+    }
+    .offer-list {
+      display: grid;
+      width: 100%;
+
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      .offer {
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+
+        padding: 0 40px 0 40px;
+        h4 {
+          font-family: gezer;
+          color: $clr5;
+          margin-bottom: 0;
+        }
+
+        .offer-gif {
+          width: 150px;
+        }
+        .offer-description {
+          color: $clr5;
+          padding: 0.4rem 00.4rem 0;
+        }
+      }
+    }
+}

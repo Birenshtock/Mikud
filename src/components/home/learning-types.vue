@@ -8,7 +8,7 @@
 
       <div class="learning-items">
         <div class="learning-item">
-          <img src="../../src/styles/imgs/private-lesson.png" alt="" />
+          <img src="../../../src/styles/imgs/private-lesson.png" alt="" />
 
           <div class="learning-item-info">
             <h3>שיעורים פרטיים</h3>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="learning-item">
-          <img src="../../src/styles/imgs/wwww.png" alt="" />
+          <img src="../../../src/styles/imgs/wwww.png" alt="" />
 
           <div class="learning-item-info">
             <h3>מרתונים</h3>
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="learning-item">
-          <img src="../../src/styles/imgs/zoom-call.png" alt="" />
+          <img src="../../../src/styles/imgs/zoom-call.png" alt="" />
           <div class="learning-item-info">
             <h3>למידה מרחוק</h3>
 

@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import svgg from '../components/svg-aboutus.vue'
+import svgg from './svgs/svg-aboutus.vue'
 
 export default {
   components: { svgg },
