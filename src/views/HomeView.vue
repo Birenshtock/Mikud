@@ -34,16 +34,6 @@ export default {
   components: { svgg, open, reviews, aboutUs, learningTypes },
   data: () => {
     return {
-      i: 0,
-
-      reviews: [
-        { reviewDscription: '4 שעות עברית בשבוע | במרכז למידה ברעננה', reviewInfo: 'אמא של תלמיד כיתה ד עולה חדש ממקסיקו' },
-        { reviewDscription: 'שיעור אחד בשבוע | בבית בתלמידה', reviewInfo: 'שני תלמידת גיתה י"א, 4 יחידות מתמטיקה' },
-
-        { reviewDscription: 'שיעור 1 בשבוע לאורך הסמסטר |   זום', reviewInfo: 'עדי, סטודנטית להנדסת חשמל בבר אילן אחרי מבחן בחדו"א 1' },
-
-        ,
-      ],
       offers: [
         {
           icon: '../../src/styles/imgs/Reading-Book.gif',
@@ -82,24 +72,8 @@ export default {
       ],
     }
   },
-  methods: {
-    moveReview(dif) {
-      var currNum = this.i + dif
-      console.log('currNum', currNum)
-      if (currNum === 3) {
-        this.i = 0
-      } else if (currNum === -1) {
-        this.i = 2
-      } else {
-        this.i = currNum
-      }
-    },
-  },
-  computed: {
-    reviewImg() {
-      return `../../src/styles/imgs/review${this.i}.jpeg`
-    },
-  },
+  methods: {},
+  computed: {},
 }
 </script>
 
