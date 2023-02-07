@@ -336,30 +336,40 @@
   .about-us {
     margin-top: 100px;
     text-align: center;
-    background-color: rgb(246, 247, 247);
+    background-color: rgba(144, 192, 244, 0.943);
+    background-image: url("src/styles/imgs/tap.png");
+    background-size: 150px;
+    background-repeat:repeat;
     padding: 50px 0 50px 0;
+    color: #fff;
+    
+    .about-title{
+      font-family: ktavyadBold;
+      font-size: xxx-large;
+    }
     .about-sub-title {
-      margin: 20px 0 50px 0;
+      margin: 30px 0 40px 0;
     }
     .about-info-cont {
       justify-content: space-between;
       .about-img {
         width: 45%;
         height: auto;
-        border-radius: 20px;
+        border-radius: 50px;
       }
       .about-info {
         width: 45%;
         text-align: right;
         direction: rtl;
         position: relative;
-        font-family: ktavyadBold;
-
-        .about-btn {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-        }
+        background-color: rgb(253, 253, 253);
+        padding: 3em;
+        border-radius: 50px;
+        color: black;
+        line-height: 1.8;
+        word-spacing: 5px;
+        margin: auto;
+        height:fit-content;
       }
     }
   }
