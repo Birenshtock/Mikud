@@ -514,8 +514,8 @@
     </div>
 
     <div class="main-layout offer-container">
-      <h1>מה אנחנו מציעים?</h1>
-      <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4>
+      <!-- <h1>מה אנחנו מציעים?</h1>
+      <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4> -->
       <div class="offer-list">
         <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
           <img class="offer-gif" :src="offer.icon" alt="" />
@@ -542,7 +542,7 @@
               אנו מאמינים בכל אחד ואחת.
             </p>
           </div>
-          <svgg/>
+          <svgg />
         </div>
       </div>
     </div>
@@ -620,9 +620,9 @@
   </div>
 </template>
 <script>
-  import svgg from '../components/svg-aboutus.vue'
+import svgg from '../components/svg-aboutus.vue'
 export default {
-  components: {svgg},
+  components: { svgg },
   data: () => {
     return {
       i: 0,
