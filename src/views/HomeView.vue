@@ -649,12 +649,14 @@ export default {
           description: 'אנחנו כאן להציע מרתונים לפני המבחנים, ושיעורים פרטיים במהלך הסמסטר',
         },
         {
-          icon: '../../src/styles/imgs/Form-Filling.gif',
+          icon: '../../src/styles/imgs/Web-Browsing.gif',
+
           title: 'ביה"ס לאנגלית',
           description: 'ביה"ס לאנגלית מציע מגוון  שיעורי אנגלית לשיפור הדיבור  והכתיבה',
         },
         {
-          icon: '../../src/styles/imgs/Web-Browsing.gif',
+          icon: '../../src/styles/imgs/Form-Filling.gif',
+
           title: 'שיעורים פרטיים',
           description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
         },
