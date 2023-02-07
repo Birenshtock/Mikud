@@ -542,7 +542,7 @@
               אנו מאמינים בכל אחד ואחת.
             </p>
           </div>
-          <img class="about-img" src="../../src/styles/imgs/cover.png" alt="" />
+          <svgg/>
         </div>
       </div>
     </div>
@@ -620,8 +620,9 @@
   </div>
 </template>
 <script>
+  import svgg from '../components/svg-aboutus.vue'
 export default {
-  components: {},
+  components: {svgg},
   data: () => {
     return {
       i: 0,
