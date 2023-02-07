@@ -1,6 +1,7 @@
 <template>
   <div class="home-page">
     <div class="flex home-open main-layout">
+
       <svg class="home-svg" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 6000 4000"
         viewBox="0 0 6000 4000">
         <path fill="#c4c3fc" d="M1868.8,2712c0,0,95-882.7,894.9-638.9c105.9-394.5,463.9-441.9,705-332.4c80.4-347,734.2-93,734.2-93
