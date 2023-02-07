@@ -30,15 +30,12 @@
         color: rgb(255, 146, 68);
         line-height: 5rem;
 
-        // transform: translate(-10%, 0);
       }
       .title3 {
-        // font-family: ktavyadBold;
         font-weight: 900;
         font-size: 4rem;
         color: $clr1;
         line-height: 4rem;
-        // transform: translate(-10%, 0);
       }
       .btn {
         background-color: $clr6;
@@ -47,14 +44,6 @@
   }
 
   .home-image-img {
-    // border-bottom-left-radius: 30rem 30rem;
-    // border-end-end-radius: 60rem 70rem;
-    // box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
-    // -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
-    // -webkit-box-shadow: 1px -8px 0px 20px rgb(10 168 121 / 75%);
-    // -moz-box-shadow: 10px 10px 5px 0px rgba(10, 168, 121, 0.75);
-    // width: 99.9%;
-
     background-position: center;
     position: relative;
     background-size: cover;
@@ -72,39 +61,6 @@
     font-size: 2rem;
   }
 
-  @media only screen and (max-width: 1120px) {
-    // .home-image-img {
-    //   border-bottom-left-radius: 50rem 70rem;
-    // }
-    .img-text {
-      top: 12%;
-      font-size: x-large;
-      button {
-        padding: 13px 25px;
-      }
-    }
-  }
-  @media only screen and (max-width: 960px) {
-    // .home-image-img {
-    //   border-bottom-left-radius: 50rem 70rem;
-    // }
-  }
-
-  @media only screen and (max-width: 760px) {
-    .home-image-img {
-      display: none;
-    }
-    .img-text {
-      background-color: $clr2;
-      position: relative;
-      left: 50%;
-      margin-top: 16rem;
-      button {
-        margin-bottom: 1.5rem;
-      }
-    }
-  }
-
   .learning-types {
     text-align: center;
     margin-top: 150px;
@@ -120,8 +76,8 @@
       padding: 0;
       margin: 5px;
     }
+
     .learning-titles {
-      // margin-bottom: 1000px;
       border-radius: 20px;
       background-color: $clr5;
       width: 40%;
@@ -148,11 +104,8 @@
 
       .learning-item {
         width: 30%;
-        // border-left: 5px solid $clr1;
         margin: 0px;
-        // padding: 10px;
         text-align: end;
-        // background-color: rgb(229, 228, 228);
         background-color: rgb(255, 255, 255);
         border-radius: 20px;
         color: $clr1;
@@ -181,10 +134,6 @@
         width: 90%;
       }
       .learning-btn {
-        // position: relative;
-        // right: 18%;
-        // margin-right: 3rem;
-        // transform: translate(50%, 0);
         width: 100%;
         height: 40px;
         color: white;
@@ -193,52 +142,6 @@
         border-radius: 20px;
         padding: 0;
         border-radius: 10px;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 950px) {
-    .learning-types {
-      .learning-items {
-        .learning-btn {
-          margin-right: 1.5rem;
-        }
-      }
-    }
-  }
-  @media only screen and (max-width: 800px) {
-    .learning-types {
-      .learning-items {
-        .learning-btn {
-          margin-right: 1rem;
-        }
-      }
-    }
-  }
-  @media only screen and (max-width: 750px) {
-    .learning-types {
-      .learning-items {
-        .learning-btn {
-          margin-right: 0.5rem;
-        }
-      }
-    }
-  }
-  @media only screen and (max-width: 700px) {
-    .learning-types {
-      .learning-items {
-        display: block;
-        .learning-item {
-          margin-bottom: 3rem;
-          width: 100%;
-          padding: 2rem;
-          h3 {
-            margin-top: 2rem;
-          }
-        }
-        .learning-btn {
-          margin-right: 3rem;
-        }
       }
     }
   }
