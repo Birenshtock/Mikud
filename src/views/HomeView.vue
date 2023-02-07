@@ -426,7 +426,7 @@ export default {
           description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
         },
         { icon: '../../src/styles/imgs/icon0.png', title: 'מרכז בגבעת שמואל', description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה' },
-        { icon: '../../src/styles/imgs/icon0.png', title: 'היי למה לא', description: 'אני כאן כל הזמן' },
+        { icon: '../../src/styles/imgs/icon0.png', title: 'תוכנית גפן', description: 'אני כאן כל הזמן' },
       ],
       lorem:
         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur, quam ut optio quisquam dolorem maiores perspic totam cupiditate asperiores provident praesentium nesciunt aperiam ipsam reiciendis aliquid adipisci sit beatae',
