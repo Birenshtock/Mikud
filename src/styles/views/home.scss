@@ -84,7 +84,8 @@
 
     .learning-titles {
       border-radius: 20px;
-      background-color: $clr1;
+      background-color: rgb(249, 249, 249);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
       width: 40%;
       padding: 2%;
       position: absolute;
@@ -92,12 +93,13 @@
       left: 50%;
       transform: translate(-50%, -50%);
       h1 {
-        color: #ffffff;
+        color: $clr4;
+        font-size: 2rem;
         font-family: gezer;
       }
 
       .sub-title {
-        color: $clr7;
+        color: $clr1;
       }
     }
 
