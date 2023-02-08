@@ -1,5 +1,8 @@
 <template>
   <section class="f">
+    <RouterLink class="logo" to="/">
+      <img class="logo" src="../../src/styles/imgs/logo.png" alt="" />
+    </RouterLink>
     <appHeader>
       <!-- :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
     </appHeader>
@@ -48,6 +51,14 @@ export default {
 </script>
 <style>
 .f {
+  position: relative;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+/* .f {
   height: auto;
 }
 .header-transparent {
@@ -69,5 +80,5 @@ export default {
   top: 0;
   z-index: 99;
   color: pink;
-}
+} */
 </style>

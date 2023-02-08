@@ -1,26 +1,19 @@
 .header {
   width: 100%;
-  height: 100px;
+  height: 10000px;
   font-weight: bold;
-  // font-family: gezer;
+  line-height: 100px;
 
   nav {
     display: grid;
     width: 100%;
-    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 
     .header-item {
       width: 100%;
       height: 100%;
 
-      line-height: 100%;
-      text-align: center;
-
-      div {
-        position: relative;
-        top: 50%;
-        transform: translate(0, -50%);
-      }
+      text-align: right;
     }
     .header-item:hover {
       background-color: rgba(128, 137, 134, 0.386);

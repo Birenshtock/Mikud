@@ -1,11 +1,7 @@
 <template>
   <header class="header">
     <nav class="main-layout">
-      <div></div>
-
-      <RouterLink class="header-item" to="/contactUs">
-        <div>עברית</div>
-      </RouterLink>
+      <RouterLink class="header-item" to="/contactUs"> עברית </RouterLink>
       <RouterLink class="header-item" to="/contactUs">
         <div>אנגלית</div>
       </RouterLink>
@@ -16,10 +12,22 @@
         <div>צור קשר</div>
       </RouterLink>
       <RouterLink class="header-item" to="/">
+        <div>שאלות נפוצות</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/">
         <div>אודות</div>
       </RouterLink>
       <RouterLink class="header-item" to="/">
-        <img class="logo" src="../../src/styles/imgs/logo.png" alt="" />
+        <div>השיטה</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/">
+        <div>קורסים</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/">
+        <div>מרכזים</div>
+      </RouterLink>
+      <RouterLink class="header-item" to="/">
+        <div>התחברות</div>
       </RouterLink>
     </nav>
   </header>
@@ -28,7 +36,9 @@
 export default {
   components: {},
   data: () => {
-    return {}
+    return {
+      contact: '/contactUs',
+    }
   },
   methods: {},
   computed: {},

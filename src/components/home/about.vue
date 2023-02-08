@@ -1,5 +1,6 @@
 <template>
   <div class="about-us">
+    <img class="orange-wave" src="../../styles/imgs/orangeWave.png" alt="" />
     <div class="main-layout">
       <h1 class="about-title">? מי אנחנו</h1>
       <h6 class="about-sub-title">
@@ -14,7 +15,7 @@
           להביא אותם לדרך לימוד המוצלחת. המרכז מכוון לעזור לתלמידים להשתפר בנושאים שמאופצים עליהם ולקבל ידע במיני ועמוק. אנו מאמינים בכל אחד
           ואחת.
         </div>
-        <svgg />
+        <svgg class="about-svg" />
       </div>
     </div>
   </div>
